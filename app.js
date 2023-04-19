@@ -1,9 +1,5 @@
 let input = document.getElementById('input');
 
-input.addEventListener('change',()=>{
-    search();
-})
-
 function search() {
     let input = document.getElementById('input').value
     input=input.toLowerCase();
@@ -88,4 +84,8 @@ allbtn[0].addEventListener('click',()=>{
     for(let i=0;i<javatddclass.length;i++){
         javatddclass[i].style.display = "grid";
     }
+})
+
+input.addEventListener('change',()=>{
+    search();
 })
